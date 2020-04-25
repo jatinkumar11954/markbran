@@ -295,7 +295,8 @@ class _CustomerLogState extends State<CustomerLog> {
                           )),
                       FlatButton(
                         onPressed: () {
-                          print("Forgot Password");
+                          print("Sign Up");
+                          Navigator.pushNamed(context, "CustomerSign");
                         },
                         child: Text(
                           "Sign Up",
